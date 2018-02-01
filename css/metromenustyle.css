@@ -1,0 +1,88 @@
+
+    html, body
+    {
+        font-family: SegoeUI-SemiBold,Helvetica,Arial,sans-serif;
+    }
+
+    #btn-menu
+    {
+        width: 50px;
+        height: 50px;
+        background-color: black;
+        color: white;
+        border: white;
+        transition: background-color 0.2s;
+    }
+
+    #btn-menu:hover
+    {
+        background-color: #0078d7;
+    }
+
+    .menu-panel
+    {
+        display: flex;
+        flex-wrap : wrap;
+        width: 314px;
+        height: 581px;
+        overflow: auto;
+        justify-content: normal;
+        text-align: center;
+        justify-content: center;
+
+    }
+
+    .full-menu-con
+    {
+        display: none;
+        height: 719px;
+        width: 320px;
+        background-color: #333333;
+    }
+
+    .menu-boxes
+    {
+        width: 95px;
+        margin: 1px;
+        background-color: #454545;
+        color: white;
+		cursor: pointer;
+    }
+
+    .over-menu
+    {
+        width: 150px;
+        margin-left: 15px;
+        padding-top: 50px;
+        margin-bottom: 20px;
+    }
+
+    .menu-inside
+    {
+        color: white;
+        font-weight: 700;
+        font-size: 12px;
+        font-family: "Segoe UI Semibold","Segoe UI Web Semibold","Segoe WP Semibold","Segoe UI","Segoe WP",Segoe,Tahoma,Arial,sans-serif;
+    }
+
+    .sub-item
+    {
+        text-transform: uppercase;
+        cursor: pointer;
+        margin: 5px;
+    }
+
+    .text-box
+    {
+        font-family: "Segoe UI Semibold","Segoe UI Web Semibold","Segoe WP Semibold","Segoe UI","Segoe WP",Segoe,Tahoma,Arial,sans-serif;
+        font-size: 12px;
+    }
+
+    .dummy-text
+    {
+        color: white;
+        margin-left: 20px;
+        margin-top: 15px;
+        font-size: 14px;
+    }
+
